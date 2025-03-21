@@ -27,57 +27,25 @@ This project is a comprehensive benchmarking and visualization tool for comparin
 4. **Interactive Mode**:
    - Allows users to configure benchmark parameters interactively (e.g., dataset size, algorithm selection).
 
-5. **Command-Line Interface (CLI)**:
-   - Supports command-line arguments for automation and scripting.
-
-6. **Extensibility**:
+5. **Extensibility**:
    - Easy to add new sorting algorithms or datasets.
    - Modular design for maintainability and scalability.
 
 ---
 
 ## Installation
-To use this project, you need Python 3.7 or later. Follow these steps to set up the environment:
+To use this project, you need Python 3.7 or later. Follow the step to set up the environment:
 
-1. **Install Dependencies**:
+**Install Dependencies**:
    The project requires the following Python libraries:
    - `numpy`
    - `matplotlib`
    - `argparse`
 
-   Install them using `pip`:
+   Install them using `pip` in jupyter notebook:
    ```bash
-   pip install numpy matplotlib
+   !pip install numpy matplotlib
    ```
-
-2. **Run the Project**:
-   - Use the command-line interface or interactive mode to run benchmarks and generate visualizations.
-
----
-
-## Usage
-
-### Command-Line Interface
-You can run the project with command-line arguments for automation. Here are the available options:
-
-```bash
-python sorting_algorithm_benchmarking_and_visualization.py --size 1000 --partial --log --save ./results
-```
-
-- `--size`: Dataset size (default: 1000).
-- `--partial`: Include a partially sorted dataset.
-- `--log`: Use logarithmic scale for time visualization.
-- `--save`: Save visualizations to the specified directory.
-- `--skip`: Skip specific algorithms (e.g., `--skip "Bubble Sort" "Selection Sort"`).
-
-### Interactive Mode
-If no command-line arguments are provided, the program will launch in interactive mode, prompting you for input:
-
-```bash
-python sorting_algorithm_benchmarking_and_visualization.py
-```
-
-Follow the on-screen instructions to configure the benchmark.
 
 ---
 

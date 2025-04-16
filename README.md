@@ -148,3 +148,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Inspired by classic algorithm textbooks and courses
 - Special thanks to the developers of NumPy and Matplotlib
 - Algorithm implementations based on pseudocode from various academic sources
+
+## Note
+| AI was used to generate most of the docstrings and inline comments in the code. |
+|:--:|

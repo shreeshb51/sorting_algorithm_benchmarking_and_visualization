@@ -14,6 +14,7 @@ A comprehensive Python Code for benchmarking and comparing the performance of va
 - [Algorithms/Mathematical Concepts Used](#algorithmsmathematical-concepts-used)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+- [Note](#note)
 
 ## Installation
 To set up the Sorting Algorithm Benchmark project, follow these steps:

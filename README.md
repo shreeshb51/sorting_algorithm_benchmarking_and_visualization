@@ -1,9 +1,11 @@
 # Sorting Algorithm Benchmarking and Visualization
 
 ## Project Description
+
 A comprehensive Python Code for benchmarking and comparing the performance of various sorting algorithms. This project allows users to evaluate the efficiency of different sorting methods across various data distributions and sizes, visualize the results, and understand the theoretical and practical differences between algorithms.
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -16,7 +18,10 @@ A comprehensive Python Code for benchmarking and comparing the performance of va
 - [Acknowledgments](#acknowledgments)
 - [Note](#note)
 
+---
+
 ## Installation
+
 To set up the Sorting Algorithm Benchmark project, follow these steps:
 
 - Install the required dependencies:
@@ -25,6 +30,7 @@ To set up the Sorting Algorithm Benchmark project, follow these steps:
    ```
 
 ## Usage
+
 The benchmarking and visualization tool can run in interactive mode in Jupyter Notebook.
 
 ### Interactive Mode
@@ -32,6 +38,7 @@ The benchmarking and visualization tool can run in interactive mode in Jupyter N
     - Follow the prompts to configure the benchmark parameters.
 
 ## Features
+
 - **Multiple Sorting Algorithms**: Implements seven classic sorting algorithms with proper complexity annotations
 - **Performance Metrics**: Measures execution time, comparison counts, and swap operations
 - **Various Data Distributions**: Tests algorithms on random, ascending, descending, and partially sorted data
@@ -41,6 +48,7 @@ The benchmarking and visualization tool can run in interactive mode in Jupyter N
 - **Error Handling**: Includes validation, warnings for large datasets, and proper error reporting
 
 ## Methodology
+
 The benchmarking process follows these key steps:
 
 1. **Algorithm Implementation**:
@@ -71,12 +79,15 @@ The benchmarking process follows these key steps:
    - Adds complexity annotations for reference
 
 ## Examples
+
 When run with a dataset size of 1000 elements, the benchmark and visualization will produce results similar to:
 
 ### Benchmarking Example:
+
 ![screenshot](sorting_algorithms_benchmarking_1000_obvs.png)
 
 ### Visualization Examples:
+
 - Time Comparison Chart: Shows execution times across different algorithms and datasets
 ![screenshot](sorting_algorithms_visualization_1000_time_obvs.png)
 - Comparison Operations Chart: Displays the number of comparisons performed by each algorithm
@@ -85,18 +96,21 @@ When run with a dataset size of 1000 elements, the benchmark and visualization w
 ![screenshot](sorting_algorithms_visualization_1000_swaps_obvs.png)
 
 ## References
+
 1. Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). *Introduction to Algorithms* (3rd ed.). MIT Press.
 2. Knuth, D. E. (1998). *The Art of Computer Programming, Volume 3: Sorting and Searching* (2nd ed.). Addison-Wesley.
 3. Sedgewick, R., & Wayne, K. (2011). *Algorithms* (4th ed.). Addison-Wesley.
 4. McIlroy, P. D., Bostic, K., & McIlroy, M. D. (1993). Engineering radix sort. *Computing Systems*, 6(1), 5-27.
 
 ## Dependencies
+
 - **Python 3.6+**: Core language
 - **NumPy**: For efficient array operations and random number generation
 - **Matplotlib**: For visualization and chart generation
 - **Standard Library Modules**: argparse, timeit, warnings, os, abc, heapq
 
 ## Algorithms/Mathematical Concepts Used
+
 This project implements and analyzes the following sorting algorithms:
 
 1. **Bubble Sort**
@@ -143,13 +157,16 @@ This project implements and analyzes the following sorting algorithms:
 The benchmark also explores computational complexity theory, empirical performance analysis, and algorithm efficiency visualization.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
+
 - Inspired by classic algorithm textbooks and courses
-- Special thanks to the developers of NumPy and Matplotlib
+- Developers of NumPy and Matplotlib
 - Algorithm implementations based on pseudocode from various academic sources
 
 ## Note
+
 | AI was used to generate most of the docstrings and inline comments in the code. |
 |:--:|
